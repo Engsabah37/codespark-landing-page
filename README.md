@@ -2,7 +2,7 @@
 
 A responsive marketing landing page for "CodeSpark," a fictional coding bootcamp. Built as a front-end portfolio project to practice layout, responsive design, and interactive UI details without a framework.
 
-**Live demo:** _add your Vercel/Netlify link here after deploying_
+**Live demo:** https://codespark-landing-page.vercel.app/
 
 ## Features
 

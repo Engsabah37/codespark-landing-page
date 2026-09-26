@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeSpark — Learn to Code, Step by Step</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav-inner container">
+      <a href="#" class="logo">Code<span>Spark</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#features">Why Us</a>
+        <a href="#tracks">Tracks</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="#pricing" class="btn btn-primary nav-cta">Start Learning</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Live, beginner-friendly cohorts</p>
+          <h1>Write your first real app <em>in 8 weeks</em>, not 8 months.</h1>
+          <p class="hero-sub">CodeSpark is a hands-on coding bootcamp built for total beginners. Small groups, real projects, and instructors who actually check your code.</p>
+          <div class="hero-actions">
+            <a href="#pricing" class="btn btn-primary">Reserve your seat</a>
+            <a href="#tracks" class="btn btn-ghost">See the tracks</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>1,200+</strong><span>graduates</span></div>
+            <div><strong>4.9/5</strong><span>average rating</span></div>
+            <div><strong>92%</strong><span>finish the program</span></div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-dots"><span></span><span></span><span></span></div>
+            <pre><code>function welcome(name) {
+  return `Hey ${name},
+  let's build something.`;
+}
+
+welcome("you");
+<span class="blink">|</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="logos">
+      <div class="container">
+        <p>Our graduates went on to build things at</p>
+        <div class="logo-row">
+          <span>Nileworks</span>
+          <span>Bluecrate</span>
+          <span>Fintra</span>
+          <span>Loop Labs</span>
+          <span>Marsa Tech</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2>Why people finish CodeSpark</h2>
+        <p class="section-sub">Most online courses have a 90% drop-off rate. Here's what we do differently.</p>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">01</div>
+            <h3>Small live cohorts</h3>
+            <p>Max 15 students per group, so instructors actually know your name and your code.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">02</div>
+            <h3>Real projects, not quizzes</h3>
+            <p>You'll ship a portfolio site, a small app, and a group project — things you can show employers.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">03</div>
+            <h3>Human code review</h3>
+            <p>Every project gets reviewed by an instructor with written feedback, not just an auto-grader.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">04</div>
+            <h3>Career support</h3>
+            <p>CV review, mock interviews, and intros to hiring partners once you graduate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tracks" id="tracks">
+      <div class="container">
+        <h2>Pick your track</h2>
+        <p class="section-sub">Same teaching style, different destination.</p>
+        <div class="track-grid">
+          <article class="track-card">
+            <h3>Web Foundations</h3>
+            <p>HTML, CSS, and JavaScript from zero. Best if you've never written a line of code.</p>
+            <ul>
+              <li>8 weeks · 3 sessions/week</li>
+              <li>Build 3 portfolio projects</li>
+              <li>No prerequisites</li>
+            </ul>
+          </article>
+          <article class="track-card featured">
+            <span class="badge">Most popular</span>
+            <h3>Front-End with React</h3>
+            <p>Go from basics to building real interfaces with React and modern tooling.</p>
+            <ul>
+              <li>10 weeks · 4 sessions/week</li>
+              <li>Capstone group project</li>
+              <li>Requires Web Foundations</li>
+            </ul>
+          </article>
+          <article class="track-card">
+            <h3>QA &amp; Software Testing</h3>
+            <p>Manual and automated testing, from writing your first test case to Selenium scripts.</p>
+            <ul>
+              <li>6 weeks · 3 sessions/week</li>
+              <li>ISTQB-aligned syllabus</li>
+              <li>No prerequisites</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <h2>From the last cohort</h2>
+        <div class="testimonial-grid">
+          <blockquote>
+            <p>"I'd tried three YouTube playlists before this. The difference was having someone actually look at my code and tell me why it broke."</p>
+            <cite>— Nourhan A., Web Foundations grad</cite>
+          </blockquote>
+          <blockquote>
+            <p>"Small group size meant I could actually ask questions without feeling behind everyone else."</p>
+            <cite>— Karim S., React track grad</cite>
+          </blockquote>
+          <blockquote>
+            <p>"Went from 'what is a variable' to shipping my own project in two months."</p>
+            <cite>— Hana M., Web Foundations grad</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <h2>Simple pricing</h2>
+        <p class="section-sub">One price, everything included. No hidden fees.</p>
+        <div class="pricing-grid">
+          <div class="price-card">
+            <h3>Web Foundations</h3>
+            <p class="price">EGP 4,500</p>
+            <ul>
+              <li>8-week live cohort</li>
+              <li>3 projects reviewed</li>
+              <li>Certificate of completion</li>
+            </ul>
+            <a href="#" class="btn btn-ghost">Reserve seat</a>
+          </div>
+          <div class="price-card featured">
+            <span class="badge">Best value</span>
+            <h3>Front-End with React</h3>
+            <p class="price">EGP 7,900</p>
+            <ul>
+              <li>10-week live cohort</li>
+              <li>Capstone project</li>
+              <li>Career support included</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Reserve seat</a>
+          </div>
+          <div class="price-card">
+            <h3>QA &amp; Testing</h3>
+            <p class="price">EGP 3,900</p>
+            <ul>
+              <li>6-week live cohort</li>
+              <li>ISTQB-aligned</li>
+              <li>Certificate of completion</li>
+            </ul>
+            <a href="#" class="btn btn-ghost">Reserve seat</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2>Common questions</h2>
+        <div class="faq-list">
+          <details open>
+            <summary>Do I need any experience before joining?</summary>
+            <p>No. Web Foundations and QA &amp; Testing assume zero coding background. The React track assumes you've finished Web Foundations or know equivalent basics.</p>
+          </details>
+          <details>
+            <summary>Are the sessions live or recorded?</summary>
+            <p>Live, with a small group and real-time Q&amp;A. Sessions are recorded so you can review them, but the core experience is live.</p>
+          </details>
+          <details>
+            <summary>What if I fall behind?</summary>
+            <p>Instructors hold weekly office hours, and cohorts are small enough that catching up with 1:1 help is realistic.</p>
+          </details>
+          <details>
+            <summary>Is there a certificate at the end?</summary>
+            <p>Yes, every track ends with a certificate of completion once your final project is reviewed and approved.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <h2>Your first project is 8 weeks away.</h2>
+        <p>Seats are limited to keep cohorts small. The next Web Foundations group starts soon.</p>
+        <a href="#pricing" class="btn btn-primary btn-lg">Reserve your seat</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#" class="logo">Code<span>Spark</span></a>
+      <p>&copy; 2026 CodeSpark. A fictional bootcamp built as a portfolio project.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

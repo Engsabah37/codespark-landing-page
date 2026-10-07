@@ -4,6 +4,12 @@ A responsive marketing landing page for "CodeSpark," a fictional coding bootcamp
 
 **Live demo:** https://codespark-landing-page.vercel.app/
 
+<p align="center">
+  <img src="screenshots/codespark-desktop.png" alt="Desktop view" width="640">
+  &nbsp;
+  <img src="screenshots/codespark-mobile.png" alt="Mobile view" width="180">
+</p>
+
 ## Features
 
 - Responsive hero, features, pricing, testimonials, and FAQ sections
@@ -32,4 +38,8 @@ This is a static site — drag-and-drop the folder into Netlify, or import the r
 
 ## Author
 
-Sabah Gomaa — [GitHub](https://github.com/Engsabah37) · [LinkedIn](https://www.linkedin.com/in/sabah-gomaa-90a8361b7)
+Eng. Sabah Gomaa — [GitHub](https://github.com/Engsabah37) · [LinkedIn](https://www.linkedin.com/in/sabah-gomaa-90a8361b7)
+
+## License
+
+[MIT](LICENSE)
